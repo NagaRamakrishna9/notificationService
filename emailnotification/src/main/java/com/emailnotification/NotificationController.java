@@ -9,6 +9,6 @@ public class NotificationController {
     @GetMapping("/sendEmail/{name}")
     public String sendEmail(@PathVariable String name){
       //--> write  send email notification
-        return "email sent successfull " + name;
+        return "email sent successfully " + name;
     }
 }
